@@ -111,8 +111,10 @@ a:hover {
 }
 
 .section.about {
-    background: rgb(17, 1, 1);
-    color: rgb(255, 255, 255);
+    /* background: rgb(17, 1, 1); */
+    /* color: rgb(255, 255, 255); */
+    background: #ffffff;
+    color: rgb(17, 1, 1);
 }
 
 .section.intro {
@@ -137,6 +139,15 @@ a:hover {
 
 .section.about .bullet h2 {
     padding: 0 0 16pt 0;
+}
+
+.section.about .description {
+    font-family: "Karla";
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.7rem;
+    padding: 1rem 0;
 }
 
 .section.about .bullet p {
