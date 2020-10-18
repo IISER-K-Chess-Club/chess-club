@@ -1,0 +1,280 @@
+body,
+html,
+{
+    background: #fff
+}
+
+body,
+button,
+input,
+label,
+textarea {
+    font-family: "GothamRoundedMedium";
+    font-weight: 400;
+    color: #fff
+}
+
+input,
+label,
+textarea {
+    color: #555;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: "GothamRoundedLight";
+    font-weight: 100;
+    letter-spacing: .3rem;
+    padding: 0 32pt;
+    line-height: 4rem;
+}
+
+a,
+h1,
+h2 {
+    text-transform: uppercase
+}
+
+h2 {
+    letter-spacing: .35rem;
+    line-height: 2.5rem;
+    padding: 32pt 40pt 0 40pt;
+}
+
+#main_logo {
+    padding: 0 0 56pt 0;
+    max-width: 70%;
+    max-height: 300px
+}
+
+.intro h1 {
+    font-family: "GothamRoundedMedium";
+    font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 56pt;
+    line-height: 2.5rem;
+}
+
+h2,
+h2 a {
+    font-size: 1.5rem;
+}
+
+a {
+    color: #fff;
+    font-family: "GothamRoundedBook";
+    font-weight: 300;
+    font-size: 1.25rem;
+    border-bottom: 1px solid #fff;
+    text-decoration: none
+}
+
+h2 a {
+    font-weight: 900
+}
+
+a:active,
+a:hover {
+    color: #555;
+    border-bottom: 1px solid #555
+}
+
+.link_centered {
+    min-width: 150px;
+    display: inline-block;
+    letter-spacing: .15rem;
+    padding-bottom: 56pt;
+}
+
+.section-wrapper {
+    padding: 56pt 0;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}
+
+.section {
+    /* fallback for older browsers */
+    background: url(../img/gear.jpg) no-repeat center center;
+    /* newer browsers: color gradient with image */
+    background: linear-gradient(to bottom right, hsla(23, 30%, 0%, 0.80), hsl(0, 90%, 4%)), url(../img/aerial.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.section.about {
+    background: rgb(17, 1, 1);
+    color: rgb(255, 255, 255);
+}
+
+.section.intro {
+    min-height: 100vh;
+    /*    margin-bottom: -60px;
+    box-sizing: border-box;
+    min-height: 100vh;*/
+}
+
+.section.about .bullet {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 40pt 56pt 0 56pt;
+    box-sizing: border-box;
+}
+
+.section.about .bullet img {
+    width: 100px;
+    padding-bottom: 32pt;
+}
+
+.section.about .bullet h2 {
+    padding: 0 0 16pt 0;
+}
+
+.section.about .bullet p {
+    margin: 0 auto;
+    display: inline-block;
+    font-family: "Karla";
+    font-weight:400;
+    font-weight: 100;
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 250px;
+    letter-spacing: -.04rem;
+    word-spacing: -.02rem;
+    line-height: 1.7rem
+}
+
+.section.events {
+    /* fallback for older browsers */
+    /* newer browsers: color gradient with image */
+    background: linear-gradient(to bottom right, hsla(0, 90%, 4%), hsla(90, 0%, 0%, 0.80)) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.section.gallery {
+    /* fallback for older browsers */
+    background: url(../img/stadium.jpg) no-repeat center center;
+    /* newer browsers: color gradient with image */
+    background: linear-gradient(to bottom right, hsla(0, 90%, 4%), hsla(0, 90%, 4%)), url(../img/stadium.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.section.signup {
+    /* fallback for older browsers */
+    background: url(../img/stadium.jpg) no-repeat center center;
+    /* newer browsers: color gradient with image */
+    background: linear-gradient(to bottom right, hsla(23, 30%, 0%, 0.80), hsla(0, 90%, 4%)), url(../img/stadium.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.section.contact {
+    /* fallback for older browsers */
+    background: url(../img/stadium.jpg) no-repeat center center;
+    /* newer browsers: color gradient with image */
+    background: linear-gradient(to bottom right, hsla(23, 30%, 0%, 0.80), hsla(23, 30%, 0%, 0.80)), url(../img/stadium.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.form-group {
+    color: #555;
+    margin-top: 40pt;
+    display: inline-block;
+    padding: 32pt;
+    background: rgba(255, 255, 255, .75);
+    border-radius: 8pt;
+}
+
+.form-group input.required,
+.form-group textarea.required,
+.form-group textarea.required:focus {
+    font-family: "GothamRoundedLight";
+    font-weight: 300;
+    font-size: 1rem;
+    background: 0;
+    border: 2px solid rgba(0, 0, 0, .1);
+    border-radius: 4pt;
+    width: 250px;
+    padding: 8pt;
+    margin: 0 0 32pt 0;
+}
+
+.form-group textarea.required,
+.form-group textarea.required:focus {
+    font-size: 1rem
+}
+
+
+button,
+button#sign_up_button,
+.submit-button,
+.submit-button:focus,
+.submit-button:hover {
+    background: none;
+    border: 2px solid #fff;
+    padding: 8pt 16pt;
+    text-transform: uppercase;
+    border-radius: 4pt;
+    cursor: pointer;
+    font-size: 1.25rem !important;
+    letter-spacing: .3rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-family: "GothamRoundedMedium" !important;
+    font-weight: 400 !important;
+}
+
+.form-group .submit-button,
+.form-group .submit-button:focus {
+    color: #555;
+    border: 2px solid #555;
+    margin: 0;
+}
+
+button#sign_up_button:hover,
+.form-group .submit-button:hover {
+    background: #fff;
+    color: #555;
+    border: 2px solid #fff;
+}
+
+label {
+    color: #555;
+    padding: 0 0 8pt 0;
+    text-align: left;
+    display: block
+}
+
+.required_label {
+    float: right;
+    color: #c82b37;
+    letter-spacing: .15rem;
+    font-size: .75rem;
+    line-height: 1rem
+}
+
+@media (max-width:420px) {
+    .form-group input.required,
+    .form-group input:focus,
+    .form-group textarea.required,
+    .form-group textarea.required:focus {
+        width: 200px
+    }
+}
+
+@media (max-height:640px) {}
+
