@@ -79,6 +79,11 @@ a:hover {
     border-bottom: 1px solid #555
 }
 
+#mail-link {
+    font-size: 1rem;
+    font-family: "GothamRoundedMedium";
+}
+
 .link_centered {
     min-width: 150px;
     display: inline-block;
@@ -89,7 +94,8 @@ a:hover {
 .section-wrapper {
     padding: 56pt 0;
     box-sizing: border-box;
-    width: 100%;
+    width: 90%;
+    margin: 0 5%;
     text-align: center;
 }
 
