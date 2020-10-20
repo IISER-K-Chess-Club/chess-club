@@ -29,11 +29,11 @@ h1 {
     line-height: 4rem;
 }
 
-a,
+/* a,
 h1,
 h2 {
     text-transform: uppercase
-}
+} */
 
 h2 {
     letter-spacing: .35rem;
