@@ -41,8 +41,9 @@ $(document).ready(function() {
         cellAlign: 'center',
         fullscreen: true,
         contain: true,
-        wrapAround: true,
-        lazyLoad: true,
+        imagesLoaded: true,
+        // wrapAround: true,
+        // lazyLoad: true,
         // pageDots: false
     });
 

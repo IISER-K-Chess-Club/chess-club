@@ -158,6 +158,7 @@ a:hover {
 
 .section.about .bullet h2 {
     padding: 0 0 16pt 0;
+    margin: 0;
 }
 
 .section.about .description {
