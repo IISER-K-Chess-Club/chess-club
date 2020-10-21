@@ -48,7 +48,7 @@ p {
 #main_logo {
     padding: 0 0 5pt 0;
     max-width: 70%;
-    max-height: 400px
+    max-height: 400px;
 }
 
 .intro h1 {
@@ -83,13 +83,13 @@ a {
 }
 
 h2 a {
-    font-weight: 900
+    font-weight: 900;
 }
 
 a:active,
 a:hover {
     color: #555;
-    border-bottom: 1px solid #555
+    border-bottom: 1px solid #555;
 }
 
 #mail-us {
