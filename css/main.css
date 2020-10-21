@@ -183,9 +183,17 @@ a:hover {
 }
 
 .section.events {
-    /* fallback for older browsers */
     /* newer browsers: color gradient with image */
-    background: linear-gradient(to bottom right, hsla(0, 90%, 4%), hsla(90, 0%, 0%, 0.80)) no-repeat center center;
+    background: linear-gradient(to bottom right, hsla(0, 90%, 4%), hsla(90, 0%, 0%, 0.80)), url(../img/pieces.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.section.members {
+    /* newer browsers: color gradient with image */
+    background: linear-gradient(to bottom right, hsla(23, 80%, 4%), hsla(90, 0%, 4%, 0.80));
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -193,33 +201,39 @@ a:hover {
 }
 
 .section.gallery {
-    /* fallback for older browsers */
-    background: url(../img/stadium.jpg) no-repeat center center;
-    /* newer browsers: color gradient with image */
-    background: linear-gradient(to bottom right, hsla(0, 90%, 4%), hsla(0, 90%, 4%)), url(../img/stadium.jpg) no-repeat center center;
+    background: linear-gradient(to bottom right, hsla(0, 90%, 4%), hsla(0, 90%, 4%));
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover
 }
 
-.section.signup {
-    /* fallback for older browsers */
-    background: url(../img/stadium.jpg) no-repeat center center;
-    /* newer browsers: color gradient with image */
-    background: linear-gradient(to bottom right, hsla(23, 30%, 0%, 0.80), hsla(0, 90%, 4%)), url(../img/stadium.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
+.carousel {
+    padding: 2rem 0;
+    background: none;
 }
 
+.carousel img {
+    display: block;
+    height: 400px;
+    padding: 0 1rem;
+}
+
+/* .section.signup { */
+/*     /1* fallback for older browsers *1/ */
+/*     background: url(../img/stadium.jpg) no-repeat center center; */
+/*     /1* newer browsers: color gradient with image *1/ */
+/*     background: linear-gradient(to bottom right, hsla(23, 30%, 0%, 0.80), hsla(0, 90%, 4%)), url(../img/stadium.jpg) no-repeat center center; */
+/*     -webkit-background-size: cover; */
+/*     -moz-background-size: cover; */
+/*     -o-background-size: cover; */
+/*     background-size: cover; */
+/*     background-attachment: fixed; */
+/* } */
+
 .section.contact {
-    /* fallback for older browsers */
-    background: url(../img/stadium.jpg) no-repeat center center;
     /* newer browsers: color gradient with image */
-    background: linear-gradient(to bottom right, hsla(23, 30%, 0%, 0.80), hsla(23, 30%, 0%, 0.80)), url(../img/stadium.jpg) no-repeat center center;
+    background: rgb(20, 10, 10);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -301,6 +315,12 @@ label {
     letter-spacing: .15rem;
     font-size: .75rem;
     line-height: 1rem
+}
+
+@media (max-width:600px) {
+    .carousel img {
+        height: 200px;
+    }
 }
 
 @media (max-width:420px) {

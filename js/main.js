@@ -37,5 +37,14 @@ $(document).ready(function() {
         document.location.href= "/";
     });
 
+    $('.carousel').flickity({
+        cellAlign: 'center',
+        fullscreen: true,
+        contain: true,
+        wrapAround: true,
+        lazyLoad: true,
+        // pageDots: false
+    });
+
     // scrollTo(Url.hash() || 'intro');
 });
