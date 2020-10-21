@@ -221,6 +221,10 @@ a:hover {
     padding: 0 1rem;
 }
 
+.carousel-caption {
+    margin-top: 1rem;
+}
+
 /* .section.signup { */
 /*     /1* fallback for older browsers *1/ */
 /*     background: url(../img/stadium.jpg) no-repeat center center; */
