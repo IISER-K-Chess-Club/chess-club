@@ -335,7 +335,10 @@ label {
 }
 
 @media (max-width:600px) {
-    .carousel img {
+    .carousel-cell {
+        min-width: 100px;
+    }
+    .carousel-cell-image {
         height: 200px;
     }
 }
