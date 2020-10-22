@@ -224,6 +224,67 @@ a:hover {
     background-size: cover
 }
 
+.section.gallery .section-wrapper {
+    padding-bottom: 20pt;
+}
+
+.collapsible {
+    transition: max-height 1s;
+    max-height: 0;
+    overflow: hidden;
+}
+.collapsible.expanded {
+    max-height: auto;
+}
+
+.collapse-button .arrow {
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    transition: transform 0.5s;
+}
+.collapse-button .arrow::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-width: 4px 4px 0 0;
+    border-style: solid;
+    border-color: #fafafa;
+    transition: .2s ease;
+    display: block;
+    transform-origin: 100% 0;
+}
+.collapse-button .arrow:after {
+    content: '';
+    float: left;
+    position: relative;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    border-width: 0 4px 0 0;
+    border-style: solid;
+    border-color: #fafafa;
+    transform-origin: 100% 0;
+    transition:.2s ease;
+}
+
+.collapse-button {
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    transition: transform 0.5s;
+}
+.collapse-button:hover {
+    transform: translateY(10px);
+} 
+.collapse-button.expanded:hover {
+    transform: translateY(-10px);
+}
+.collapse-button.expanded .arrow {
+    transform: rotate(-45deg);
+}
+
 .carousel {
     margin: 2rem 0 4rem 0;
     background: none;

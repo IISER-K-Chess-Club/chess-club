@@ -12,10 +12,10 @@ $(document).ready(function() {
     new WOW().init();
 
     function scrollTo(div) {
-        // $('html, body').animate({
-        //     scrollTop: $("#" + div).offset().top
-        // }, 250);
-        $('html, body').scrollTop($("#" + div).offset().top);
+        $('html, body').animate({
+            scrollTop: $("#" + div).offset().top
+        }, 500);
+        // $('html, body').scrollTop($("#" + div).offset().top);
 
         if (div == 'intro') {
             window.location.hash = '';
@@ -45,6 +45,18 @@ $(document).ready(function() {
         fullscreen: true,
         // wrapAround: true,
         // pageDots: false
+    });
+
+    $('#gallery-collapse-button').on('click', function() {
+        var collapsible = $('#gallery-collapsible');
+        collapsible.toggleClass('expanded');
+        $('#gallery-collapse-button').toggleClass('expanded');
+        if (collapsible.hasClass('expanded')) {
+            collapsible.css('max-height', collapsible[0].scrollHeight + 'px');
+        } else {
+            collapsible.css('max-height', '0px');
+            scrollTo('gallery');
+        }
     });
 
     // scrollTo(Url.hash() || 'intro');
