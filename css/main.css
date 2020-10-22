@@ -215,10 +215,21 @@ a:hover {
     background: none;
 }
 
-.carousel img {
+.carousel-cell {
+    min-width: 200px;
+}
+
+.carousel-cell-image {
     display: block;
     height: 400px;
     padding: 0 1rem;
+    transition: opacity 0.4s;
+    opacity: 0;
+}
+
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+    opacity: 1;
 }
 
 .carousel-caption {

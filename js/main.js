@@ -42,8 +42,8 @@ $(document).ready(function() {
         fullscreen: true,
         contain: true,
         imagesLoaded: true,
+        lazyLoad: 2,
         // wrapAround: true,
-        // lazyLoad: true,
         // pageDots: false
     });
 
