@@ -133,6 +133,13 @@ a:hover {
     background-attachment: fixed;
 }
 
+.flex-parent {
+    display: flex;
+}
+.flex-child {
+    flex: 1;
+}
+
 .section.about {
     /* background: rgb(17, 1, 1); */
     /* color: rgb(255, 255, 255); */
