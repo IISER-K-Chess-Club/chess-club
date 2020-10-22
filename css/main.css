@@ -122,9 +122,7 @@ a:hover {
 }
 
 .section {
-    /* fallback for older browsers */
     background: black;
-    /* newer browsers: color gradient with image */
     background: linear-gradient(to bottom, hsla(23, 30%, 0%, 0.50), hsl(0, 90%, 4%)), url(../img/chessboard.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -196,7 +194,6 @@ a:hover {
 }
 
 .section.events {
-    /* newer browsers: color gradient with image */
     background: linear-gradient(to bottom right, hsla(0, 90%, 4%), hsla(90, 0%, 0%, 0.80)), url(../img/pieces.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -206,7 +203,6 @@ a:hover {
 }
 
 .section.members {
-    /* newer browsers: color gradient with image */
     background: linear-gradient(to bottom right, hsla(23, 80%, 4%), hsla(90, 0%, 4%, 0.80));
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -215,7 +211,7 @@ a:hover {
 }
 
 .section.gallery {
-    background: linear-gradient(to bottom right, hsla(0, 90%, 4%), hsla(0, 90%, 4%));
+    background: #160808;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -298,8 +294,7 @@ a:hover {
 /* } */
 
 .section.contact {
-    /* newer browsers: color gradient with image */
-    background: rgb(20, 10, 10);
+    background: #100505;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
