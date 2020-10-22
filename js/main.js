@@ -39,10 +39,10 @@ $(document).ready(function() {
 
     $('.carousel').flickity({
         cellAlign: 'center',
-        fullscreen: true,
         contain: true,
         imagesLoaded: true,
         lazyLoad: 2,
+        fullscreen: true,
         // wrapAround: true,
         // pageDots: false
     });

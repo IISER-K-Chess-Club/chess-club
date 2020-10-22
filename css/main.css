@@ -211,12 +211,17 @@ a:hover {
 }
 
 .carousel {
-    margin: 2rem 0;
+    margin: 2rem 0 4rem 0;
     background: none;
 }
 
 .carousel-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-width: 200px;
+    margin-bottom: 0.5rem;
 }
 
 .carousel-cell-image {
@@ -234,6 +239,38 @@ a:hover {
 
 .carousel-caption {
     margin-top: 1rem;
+}
+
+.carousel.is-fullscreen {
+    background: #160808 !important;
+    margin: 0;
+}
+
+.carousel.is-fullscreen .carousel-cell {
+    height: 100%;
+    width: 100%;
+}
+.carousel.is-fullscreen .carousel-cell-image {
+    height: auto;
+    width: auto;
+    max-height: 90%;
+    max-width: 95vw;
+    margin: 1% 0 0 0;
+}
+
+.flickity-page-dots .dot {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.flickity-fullscreen-button {
+    width: 28px !important;
+    height: 28px !important;
+    padding: 0 !important;
+    border: 2px solid #333333 !important;
 }
 
 /* .section.signup { */
@@ -340,6 +377,12 @@ label {
     }
     .carousel-cell-image {
         height: 200px;
+    }
+
+    .flickity-page-dots .dot {
+        width: 6px !important;
+        height: 6px !important;
+        margin: 0 4px !important;
     }
 }
 
