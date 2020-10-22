@@ -131,11 +131,17 @@ a:hover {
     background-attachment: fixed;
 }
 
-.flex-parent {
-    display: flex;
+.section.members h2 {
+    margin-bottom: 1rem;
 }
-.flex-child {
-    flex: 1;
+
+.members-box, #office-bearers {
+    margin: 0 10%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
 }
 
 .section.about {
@@ -378,6 +384,12 @@ label {
     line-height: 1rem
 }
 
+@media (max-width:800px) {
+    .members-box {
+        grid-template-columns: repeat(2, 1fr);
+    }    
+}
+
 @media (max-width:600px) {
     .carousel-cell {
         min-width: 100px;
@@ -385,11 +397,14 @@ label {
     .carousel-cell-image {
         height: 200px;
     }
-
     .flickity-page-dots .dot {
         width: 6px !important;
         height: 6px !important;
         margin: 0 4px !important;
+    }
+
+    .members-box, #office-bearers {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -401,6 +416,4 @@ label {
         width: 200px
     }
 }
-
-@media (max-height:640px) {}
 
