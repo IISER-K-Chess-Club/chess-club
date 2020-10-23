@@ -199,6 +199,15 @@ a:hover {
     line-height: 1.7rem
 }
 
+.section.conquests {
+    background: linear-gradient(to bottom right, hsla(0, 90%, 4%), hsla(90, 0%, 0%, 0.80)), url(../img/pieces.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .section.events {
     background: linear-gradient(to bottom right, hsla(0, 90%, 4%), hsla(90, 0%, 0%, 0.80)), url(../img/pieces.jpg) no-repeat center center;
     -webkit-background-size: cover;
