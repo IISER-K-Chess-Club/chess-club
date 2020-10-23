@@ -209,11 +209,13 @@ a:hover {
 }
 
 .section.members {
-    background: linear-gradient(to bottom right, hsla(23, 80%, 4%), hsla(90, 0%, 4%, 0.80));
+    background: linear-gradient(to bottom right, hsla(0, 90%, 4%), hsla(90, 0%, 0%, 0.70)), url(../img/brown-pieces.jpg) no-repeat center center;
+    /* background: linear-gradient(to bottom right, hsla(23, 80%, 4%), hsla(90, 0%, 4%, 0.80)); */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .section.gallery {
