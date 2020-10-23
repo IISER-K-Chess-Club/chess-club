@@ -47,15 +47,16 @@ $(document).ready(function() {
         // pageDots: false
     });
 
-    $('#gallery-collapse-button').on('click', function() {
-        var collapsible = $('#gallery-collapsible');
+    $('.collapse-button').on('click', function() {
+        var name = $(this).attr('id').split('-')[0];
+        var collapsible = $('#' + name + '-collapsible');
         collapsible.toggleClass('expanded');
-        $('#gallery-collapse-button').toggleClass('expanded');
+        $(this).toggleClass('expanded');
         if (collapsible.hasClass('expanded')) {
             collapsible.css('max-height', collapsible[0].scrollHeight + 'px');
         } else {
             collapsible.css('max-height', '0px');
-            scrollTo('gallery');
+            scrollTo(name);
         }
     });
 
