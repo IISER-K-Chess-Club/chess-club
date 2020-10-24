@@ -4,20 +4,10 @@ html,
     background: black;
 }
 
-body,
-button,
-input,
-label,
-textarea {
+body {
     font-family: "GothamRoundedMedium";
     font-weight: 400;
     color: #fff
-}
-
-input,
-label,
-textarea {
-    color: #555;
 }
 
 h1 {
@@ -354,101 +344,12 @@ a:hover {
     border: 2px solid #333333 !important;
 }
 
-/* .section.signup { */
-/*     /1* fallback for older browsers *1/ */
-/*     background: url(../img/stadium.jpg) no-repeat center center; */
-/*     /1* newer browsers: color gradient with image *1/ */
-/*     background: linear-gradient(to bottom right, hsla(23, 30%, 0%, 0.80), hsla(0, 90%, 4%)), url(../img/stadium.jpg) no-repeat center center; */
-/*     -webkit-background-size: cover; */
-/*     -moz-background-size: cover; */
-/*     -o-background-size: cover; */
-/*     background-size: cover; */
-/*     background-attachment: fixed; */
-/* } */
-
 .section.contact {
     background: #100505;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover
-}
-
-.form-group {
-    color: #555;
-    margin-top: 40pt;
-    display: inline-block;
-    padding: 32pt;
-    background: rgba(255, 255, 255, .75);
-    border-radius: 8pt;
-}
-
-.form-group input.required,
-.form-group textarea.required,
-.form-group textarea.required:focus {
-    font-family: "GothamRoundedLight";
-    font-weight: 300;
-    font-size: 1rem;
-    background: 0;
-    border: 2px solid rgba(0, 0, 0, .1);
-    border-radius: 4pt;
-    width: 250px;
-    padding: 8pt;
-    margin: 0 0 32pt 0;
-}
-
-.form-group textarea.required,
-.form-group textarea.required:focus {
-    font-size: 1rem
-}
-
-
-button,
-button#sign_up_button,
-.submit-button,
-.submit-button:focus,
-.submit-button:hover {
-    background: none;
-    border: 2px solid #fff;
-    padding: 8pt 16pt;
-    text-transform: uppercase;
-    border-radius: 4pt;
-    cursor: pointer;
-    font-size: 1.25rem !important;
-    letter-spacing: .3rem;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    font-family: "GothamRoundedMedium" !important;
-    font-weight: 400 !important;
-}
-
-.form-group .submit-button,
-.form-group .submit-button:focus {
-    color: #555;
-    border: 2px solid #555;
-    margin: 0;
-}
-
-button#sign_up_button:hover,
-.form-group .submit-button:hover {
-    background: #fff;
-    color: #555;
-    border: 2px solid #fff;
-}
-
-label {
-    color: #555;
-    padding: 0 0 8pt 0;
-    text-align: left;
-    display: block
-}
-
-.required_label {
-    float: right;
-    color: #c82b37;
-    letter-spacing: .15rem;
-    font-size: .75rem;
-    line-height: 1rem
 }
 
 @media (max-width:800px) {
