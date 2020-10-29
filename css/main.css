@@ -199,6 +199,16 @@ a:hover {
     background-attachment: fixed;
 }
 
+.section.conquests .description {
+    font-style: italic;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.7rem;
+    padding: 1rem 5%;
+}
+
 .section.events {
     background: linear-gradient(to bottom right, hsla(0, 90%, 4%), hsla(90, 0%, 0%, 0.70)), url(../img/pieces.jpg) no-repeat center center;
     -webkit-background-size: cover;
@@ -207,6 +217,16 @@ a:hover {
     background-size: cover;
     background-attachment: fixed;
 }
+
+.section.events .description {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.7rem;
+    padding: 1rem 5%;
+}
+
 
 .events-box{
     display: grid;

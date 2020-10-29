@@ -8,7 +8,7 @@
 
 .page-content {
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 3.5rem;
   padding: 1rem;
   max-width: 1024px;
   margin: 0 auto;
@@ -78,7 +78,7 @@
   transition: transform calc(var(--d) * 2) var(--e), -webkit-transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
-  background-image: url(https://images.unsplash.com/photo-1517021897933-0e0319cfbc28?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url(../img/gallery/IISM_2019/img_1.jpg);
 }
 .card:nth-child(2):before {
   background-image: url(https://images.unsplash.com/photo-1533903345306-15d1c30952de?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
@@ -115,6 +115,7 @@
   font-size: 1.3rem;
   font-weight: bold;
   line-height: 1.2;
+  margin-top: -1%;
 }
 
 .copy {
