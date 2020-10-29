@@ -2,6 +2,7 @@ body,
 html,
 {
     background: black;
+    height: 100%;
 }
 
 body {
@@ -205,6 +206,12 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.events-box{
+    display: grid;
+    place-items: center;
+    box-sizing: border-box
 }
 
 .section.members {
