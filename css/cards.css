@@ -5,9 +5,19 @@
   --font-serif: 'Karla', serif;
 }
 
+.open-page-content{
+  display: flex;
+  justify-content: center;
+  grid-gap: 3.5rem;
+  padding: 1rem;
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+}
 
 .page-content {
   display: grid;
+  justify-content: center;
   grid-gap: 3.5rem;
   padding: 1rem;
   max-width: 1024px;

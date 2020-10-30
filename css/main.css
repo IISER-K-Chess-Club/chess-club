@@ -191,7 +191,7 @@ a:hover {
 }
 
 .section.conquests {
-    background: linear-gradient(to bottom right, hsla(0, 90%, 4%), hsla(90, 0%, 0%, 0.70)), url(../img/pieces.jpg) no-repeat center center;
+    background: linear-gradient(to bottom right, hsla(0, 90%, 4%), hsla(90, 0%, 0%, 0.70)), url(../img/king_down.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -233,6 +233,25 @@ a:hover {
     place-items: center;
     box-sizing: border-box
 }
+
+.section.open-events {
+    background: #160808;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section.open-events .description {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.7rem;
+    padding: 1rem 5%;
+}
+
 
 .section.members {
     background: linear-gradient(to top left, hsla(0, 90%, 4%), hsla(90, 10%, 8%, 0.70)), url(../img/brown-pieces.jpg) no-repeat center center;
