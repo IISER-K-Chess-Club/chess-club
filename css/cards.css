@@ -271,13 +271,13 @@
   background-image: url(../img/gallery/IISM_2019/img_1.jpg);
 }
 .conquests-card:nth-child(2):before {
-  background-image: url(../img/gallery/misc/img_11.jpg);
+  background-image: url(../img/gallery/misc/img_12.jpg);
 }
 .conquests-card:nth-child(3):before {
   background-image: url(../img/gallery/IISM_2018/img_11.jpg);
 }
 .conquests-card:nth-child(4):before {
-  background-image: url(https://images.unsplash.com/photo-1531306728370-e2ebd9d7bb99?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-image: url(../img/gallery/IISM_2017/DUTfeniVMAAxnvz.jpg);
 }
 
 @media (hover: hover) and (min-width: 600px) {
