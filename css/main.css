@@ -209,7 +209,6 @@ a:hover {
 }
 
 .section.conquests .description {
-    font-style: italic;
     font-family: "Karla", sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
@@ -278,6 +277,15 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover
+}
+
+.section.gallery .description {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 1.7rem;
+    padding: 1rem 5%;
 }
 
 .section.gallery .section-wrapper {

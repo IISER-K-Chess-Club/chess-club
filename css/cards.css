@@ -94,7 +94,7 @@
   background-image: url(../img/Cards-background/institute-events/rapid.jpg);
 }
 .card:nth-child(3):before {
-  background-image: url(../img/aerial.jpg);
+  background-image: url(../img/Cards-background/institute-events/inter_batch.jpg);
 }
 .card:nth-child(4):before {
   background-image: url(../img/Cards-background/institute-events/blitz_1.jpg);
@@ -268,16 +268,16 @@
   transition: transform calc(var(--d) * 2) var(--e), -webkit-transform calc(var(--d) * 2) var(--e);
 }
 .conquests-card:nth-child(1):before {
-  background-image: url(../img/gallery/IISM_2019/img_1.jpg);
+  background-image: url(../img/Cards-background/Conquests/img_1.jpg);
 }
 .conquests-card:nth-child(2):before {
   background-image: url(../img/gallery/misc/img_12.jpg);
 }
 .conquests-card:nth-child(3):before {
-  background-image: url(../img/gallery/IISM_2018/img_11.jpg);
+  background-image: url(../img/Cards-background/Conquests/img_11.jpg);
 }
 .conquests-card:nth-child(4):before {
-  background-image: url(../img/gallery/IISM_2017/DUTfeniVMAAxnvz.jpg);
+  background-image: url(../img/Cards-background/Conquests/DUTfeniVMAAxnvz.jpg);
 }
 
 @media (hover: hover) and (min-width: 600px) {
@@ -393,7 +393,7 @@
   transition: transform calc(var(--d) * 2) var(--e), -webkit-transform calc(var(--d) * 2) var(--e);
 }
 .open-events-card:nth-child(1):before {
-  background-image: url(../img/gallery/inquivesta_open/img_6.jpeg);
+  background-image: url(../img/Cards-background/open-events/img_6.jpeg);
 }
 
 @media (hover: hover) and (min-width: 600px) {
