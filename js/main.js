@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    new WOW().init();
+    new WOW({mobile: false}).init();
 
     function scrollTo(div) {
         $('html, body').animate({
