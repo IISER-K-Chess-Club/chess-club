@@ -8,7 +8,7 @@
 .open-page-content{
   display: flex;
   justify-content: center;
-  grid-gap: 3.5rem;
+  grid-gap: 1rem;
   padding: 1rem;
   max-width: 1024px;
   margin: 0 auto;
@@ -18,7 +18,7 @@
 .page-content {
   display: grid;
   justify-content: center;
-  grid-gap: 3.5rem;
+  grid-gap: 1rem;
   padding: 1rem;
   max-width: 1024px;
   margin: 0 auto;
@@ -42,7 +42,7 @@
   -webkit-box-align: end;
           align-items: flex-end;
   overflow: hidden;
-  padding: 1rem;
+  /* padding: 1rem; */
   width: 100%;
   text-align: center;
   color: whitesmoke;
@@ -222,7 +222,7 @@
   -webkit-box-align: end;
           align-items: flex-end;
   overflow: hidden;
-  padding: 1rem;
+  /* padding: 1rem; */
   width: 100%;
   text-align: center;
   color: whitesmoke;
@@ -347,7 +347,7 @@
   -webkit-box-align: end;
           align-items: flex-end;
   overflow: hidden;
-  padding: 1rem;
+  /* padding: 1rem; */
   width: 100%;
   text-align: center;
   color: whitesmoke;

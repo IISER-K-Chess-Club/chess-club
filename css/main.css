@@ -361,7 +361,7 @@ a:hover {
 .carousel-cell-image {
     display: block;
     height: 400px;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     transition: opacity 0.4s;
     opacity: 0;
 }
