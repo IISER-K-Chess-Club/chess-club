@@ -380,6 +380,9 @@ a:hover {
 }
 
 @media (max-width:800px) {
+    * {
+        background-attachment: initial !important;
+    }
     .members-box {
         grid-template-columns: repeat(2, 1fr);
     }    
