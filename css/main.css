@@ -17,6 +17,7 @@ h1 {
     font-weight: 100;
     letter-spacing: .3rem;
     padding: 0 32pt;
+    margin-bottom: 8pt;
     line-height: 4rem;
 }
 
@@ -29,7 +30,7 @@ h2 {
 h2 {
     letter-spacing: .35rem;
     line-height: 2.5rem;
-    margin: 32pt 40pt 0 40pt;
+    margin: 16pt 40pt;
 }
 
 p {
@@ -49,6 +50,7 @@ p {
 .intro h1 {
     /* font-family: "GothamRoundedMedium"; */
     /* font-weight: 400; */
+    margin-bottom: 0 !important;
     font-size: 3.5rem;
     line-height: 4rem;
     padding: 0;
@@ -91,7 +93,7 @@ a:hover {
     padding: 1rem 0;
 }
 
-#mail-link {
+#mail-link, #team-link {
     font-size: 1rem;
     font-family: "GothamRoundedMedium";
     text-transform: none;
@@ -127,7 +129,7 @@ a:hover {
 }
 
 .members-box{
-    margin: 0 10%;
+    margin: 2rem 10%;
     width: 80%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -136,7 +138,7 @@ a:hover {
 }
 
 .office-bearers-box {
-    margin: 0 10%;
+    margin: 0rem 10%;
     width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -176,13 +178,13 @@ a:hover {
     margin: 0;
 }
 
-.section.about .description {
+.description {
     font-family: "Karla", sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
     text-align: center;
     line-height: 1.7rem;
-    padding: 1rem 5%;
+    margin: 1rem 8pt;
 }
 
 .section.about .bullet p {
@@ -208,15 +210,6 @@ a:hover {
     background-attachment: fixed;
 }
 
-.section.conquests .description {
-    font-family: "Karla", sans-serif;
-    font-weight: 400;
-    font-size: 1.4rem;
-    text-align: center;
-    line-height: 1.7rem;
-    padding: 1rem 5%;
-}
-
 .section.events {
     background: linear-gradient(to bottom right, hsla(0, 90%, 4%), hsla(90, 0%, 0%, 0.70)), url(../img/pieces.jpg) no-repeat center center;
     -webkit-background-size: cover;
@@ -225,16 +218,6 @@ a:hover {
     background-size: cover;
     background-attachment: fixed;
 }
-
-.section.events .description {
-    font-family: "Karla", sans-serif;
-    font-weight: 400;
-    font-size: 1.4rem;
-    text-align: center;
-    line-height: 1.7rem;
-    padding: 1rem 5%;
-}
-
 
 .events-box{
     display: grid;
@@ -250,16 +233,6 @@ a:hover {
     background-size: cover;
     background-attachment: fixed;
 }
-
-.section.open-events .description {
-    font-family: "Karla", sans-serif;
-    font-weight: 400;
-    font-size: 1.4rem;
-    text-align: center;
-    line-height: 1.7rem;
-    padding: 1rem 5%;
-}
-
 
 .section.members {
     background: linear-gradient(to top left, hsla(0, 90%, 4%), hsla(90, 10%, 8%, 0.70)), url(../img/brown-pieces.jpg) no-repeat center center;
@@ -277,15 +250,6 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover
-}
-
-.section.gallery .description {
-    font-family: "Karla", sans-serif;
-    font-weight: 400;
-    font-size: 1.4rem;
-    text-align: center;
-    line-height: 1.7rem;
-    padding: 1rem 5%;
 }
 
 .section.gallery .section-wrapper {
@@ -361,7 +325,7 @@ a:hover {
 .carousel-cell-image {
     display: block;
     height: 400px;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     transition: opacity 0.4s;
     opacity: 0;
 }
@@ -416,6 +380,9 @@ a:hover {
 }
 
 @media (max-width:800px) {
+    * {
+        background-attachment: initial !important;
+    }
     .members-box {
         grid-template-columns: repeat(2, 1fr);
     }    
@@ -434,7 +401,7 @@ a:hover {
         margin: 0 4px !important;
     }
 
-    .members-box {
+    .members-box, .office-bearers-box {
         grid-template-columns: 1fr;
     }
 
@@ -445,6 +412,11 @@ a:hover {
     h2, h2 a {
         font-size: 1.2rem;
         line-height: 2rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
     }
 }
 
