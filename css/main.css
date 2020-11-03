@@ -398,7 +398,7 @@ a:hover {
         margin: 0 4px !important;
     }
 
-    .members-box {
+    .members-box, .office-bearers-box {
         grid-template-columns: 1fr;
     }
 
