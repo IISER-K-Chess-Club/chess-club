@@ -93,9 +93,15 @@ a:hover {
     padding: 1rem 0;
 }
 
-#mail-link, #team-link {
+#mail-link, #team-link{
     font-size: 1rem;
     font-family: "GothamRoundedMedium";
+    text-transform: none;
+}
+
+#puzzle-link{
+    font-size: 1.3rem;
+    font-family: "Karla";
     text-transform: none;
 }
 
@@ -200,6 +206,15 @@ a:hover {
     word-spacing: -.02rem;
     line-height: 1.7rem
 }
+
+.section.daily-puzzle {
+    background: #100505;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
 
 .section.conquests {
     background: linear-gradient(to bottom right, hsla(0, 90%, 4%), hsla(90, 0%, 0%, 0.70)), url(../img/king_down.jpg) no-repeat center center;
