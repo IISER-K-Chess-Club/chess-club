@@ -50,7 +50,7 @@
             <div class='section-wrapper about'>
                 <h1 class='wow fadeInDown'>About</h1>
                 <div class='wow fadeInUp description' data-wow-delay='100ms'>
-                    A hub for chess players of IISER-K to play, practice, and improve together.
+                    A hub for chess players of IISER-Kolkata, the premier research institute in India, to play, practice, and improve together.
                 </div>
                 <div class='bullet wow fadeIn' data-wow-delay='200ms' data-wow-offset='100'>
                     <h2>LEARN</h2>
@@ -61,7 +61,7 @@
                 <div class='bullet wow fadeIn' data-wow-delay='300ms' data-wow-offset='100'>
                     <h2>PRACTICE</h2>
                     <p>
-                        The harder you practice, the luckier you get. Join us as we play matches, analyze games and solve puzzles to hone our skills in the game.
+                        The harder you practice, the luckier you get. <br> Join us as we play matches, analyze games and solve puzzles to hone our skills in the game.
                     </p>
                 </div>
                 <div class='bullet wow fadeIn' data-wow-delay='500ms' data-wow-offset='100'>
@@ -70,34 +70,24 @@
                         Showcase your skills against the best as we conduct tournaments and open events.
                     </p>
                 </div>
-            </div>
-        </div>
-
-        <div class='section daily-puzzle'>
-            <div class='section-wrapper daily-puzzle'>
-                <h1 class='wow fadeInDown'>Daily Puzzle!</h1>
-                <div class='wow fadeInUp description'>
-                    Presenting you new and exciting daily chess puzzles to solve hosted by <a href = "https://www.chessstrategyonline.com/" id = "puzzle-link">Chess Strategy Online</a> 
-                    <br><br>
-                    Drag the pieces to solve!
-                    <br>
+                <div class='bullet wow fadeIn' data-wow-delay='500ms' data-wow-offset='100'>
+                    <h1>Daily Puzzle!</h1>
+                    <div class='wow fadeInUp description' data-wow-delay='100ms'>
+                        Presenting you new and exciting daily chess puzzles to solve hosted by
+                    </div>
+                    <div class='wow fadeInUp' id="csoDpCon"></div>
+                    <script type="text/javascript" src="js/dailypuzzly.js"></script><script type="text/javascript">
+                    csoDailyPuzzle({
+                        boardStyle: "chesscom",
+                        pieceStyle: "merida",
+                        showCoordinates: true,
+                        width: 300
+                    });
+                    </script>
+                    <div class='wow fadeInUp description' data-wow-delay='100ms'>
+                        Drag the pieces to solve!
+                    </div>
                 </div>
-                <!-- <div class="cbdiagram"
-                    data-size="500"
-                    data-pos="wKg1,Qf6,Nf5,Ra1,c1,Pb2,b3,f3,g4,h3/bKg8,Qb7,Ne6,Ba8,Rc7,d7,Pf7,h7"
-                    data-legend="White to Move - Mate in Three."
-                    data-title="Zugzwang!">
-                </div> -->
-                <!-- Custom puzzles -->
-                <div class='wow fadeInUp' id="csoDpCon"></div>
-                <script type="text/javascript" src="js/dailypuzzly.js"></script><script type="text/javascript">
-                csoDailyPuzzle({
-                    boardStyle: "chesscom",
-                    pieceStyle: "merida",
-                    showCoordinates: true,
-                    width: 300
-                });
-                </script>
             </div>
         </div>
 
