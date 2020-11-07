@@ -395,6 +395,24 @@ a:hover {
     background-size: cover
 }
 
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.0rem;
+    width: 2.0rem;
+    background-color: #1d1919;
+    border-radius: 20%;
+    font-size: 1rem;
+    margin-right: 1.5rem;
+}
+.social-icons .social-icon:last-child {
+    margin-right: 0;
+}
+.social-icons .social-icon:hover {
+    background-color: #000000;
+}
+
 @media (max-width:800px) {
     * {
         background-attachment: initial !important;
