@@ -160,6 +160,13 @@ a:hover {
     color: rgb(17, 1, 1);
 }
 
+.section.analyze {
+    background: rgb(17, 1, 1);
+    color: rgb(255, 255, 255);
+    /* background: #ffffff;
+    color: rgb(17, 1, 1); */
+}
+
 .section.intro {
     min-height: 100vh;
     /*    margin-bottom: -60px;
