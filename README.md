@@ -8,4 +8,6 @@
 
 ### Just join together, verify your guest id/ username and send a challenge request and play as many games as you like!
 
-### Most widgets are hosted by chessbase.com
+### Most of the embedded widgets are hosted by [Chessbase](chessbase.com)
+
+### Follow us on [Facebook](https://www.facebook.com/Chess-Club-IISER-Kolkata-114370200471219) and [Instagram](https://www.instagram.com/chess.club_iiserk/)
