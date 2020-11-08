@@ -406,18 +406,27 @@ a:hover {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 2.0rem;
-    width: 2.0rem;
-    background-color: #1d1919;
-    border-radius: 20%;
-    font-size: 1rem;
-    margin-right: 1.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    transition: 0.2s all;
 }
-.social-icons .social-icon:last-child {
-    margin-right: 0;
+
+#socialInsta {
+    background: #e1306c;
 }
-.social-icons .social-icon:hover {
-    background-color: #000000;
+#socialInsta:hover {
+    background: #fff;
+    color: #e1306c;
+}
+#socialFace {
+    background: #3b5998;
+}
+#socialFace:hover {
+    background: #fff;
+    color: #3b5998;
 }
 
 @media (max-width:800px) {
