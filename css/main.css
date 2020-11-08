@@ -61,6 +61,10 @@ p {
     margin: 0;
 }
 
+#puzzles {
+    margin-top: 4rem;
+}
+
 #scroll_links {
     margin: 3rem 0;
 }
