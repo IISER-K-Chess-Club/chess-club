@@ -153,6 +153,15 @@ a:hover {
     grid-column-gap: 1rem;
 }
 
+.credits {
+    /* A note to any future office bearer of the club, it took us quite a considerable amount of effort to make this website, please do not remove the credits; Much love*/
+    color: #3b3030;
+    margin: 0rem 10%;
+    width: 80%;
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
+}
+
 .section.about {
     /* background: rgb(17, 1, 1); */
     /* color: rgb(255, 255, 255); */
