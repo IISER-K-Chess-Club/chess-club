@@ -406,6 +406,7 @@ a:hover {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20%;
     height: 2.5rem;
     width: 2.5rem;
     color: #fff;
