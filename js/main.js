@@ -43,15 +43,15 @@ $(document).ready(function() {
         }
     });
 
-    $.get("grabber.php?url=https://raw.githubusercontent.com/Ananyapam7/chess-club/master/members.txt", function(data){
-        for(name in data.split('\n').sort) {
+    $.get("grabber.php?url=https://raw.githubusercontent.com/Ananyapam7/chess-club/master/members.txt", function(data) {
+        data.split('\n').sort().filter( function(s) { return s.length > 0;}).forEach( function(name, index) {
             $('#members-list').append('<div>' + name + '</div>');
-        }
+        });
     });
-    $.get("grabber.php?url=https://raw.githubusercontent.com/Ananyapam7/chess-club/master/hall-of-fame.txt", function(data){
-        for(name in data.split('\n').sort) {
+    $.get("grabber.php?url=https://raw.githubusercontent.com/Ananyapam7/chess-club/master/hall-of-fame.txt", function(data) {
+        data.split('\n').sort().filter( function(s) { return s.length > 0;}).forEach( function(name, index) {
             $('#hall-of-fame-list').append('<div>' + name + '</div>');
-        }
+        });
     });
 
     // scrollTo(Url.hash() || 'intro');
