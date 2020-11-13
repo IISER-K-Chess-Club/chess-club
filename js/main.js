@@ -43,5 +43,16 @@ $(document).ready(function() {
         }
     });
 
+    $.get("grabber.php?url=https://raw.githubusercontent.com/Ananyapam7/chess-club/master/members.txt", function(data){
+        for(name in data.split('\n').sort) {
+            $('#members-list').append('<div>' + name + '</div>');
+        }
+    });
+    $.get("grabber.php?url=https://raw.githubusercontent.com/Ananyapam7/chess-club/master/hall-of-fame.txt", function(data){
+        for(name in data.split('\n').sort) {
+            $('#hall-of-fame-list').append('<div>' + name + '</div>');
+        }
+    });
+
     // scrollTo(Url.hash() || 'intro');
 });
